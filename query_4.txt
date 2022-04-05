@@ -1,0 +1,3 @@
+SELECT *
+FROM `courses`
+WHERE `period` = "I %" AND `year` = 1;

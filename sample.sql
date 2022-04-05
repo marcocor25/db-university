@@ -12,3 +12,8 @@ WHERE `cfu` > "10";
 SELECT *
 FROM `students`
 WHERE (YEAR(CURDATE()) - YEAR(date_of_birth)) > 30;
+
+-- QUERY 4
+SELECT *
+FROM `courses`
+WHERE `period` = "I %" AND `year` = 1;

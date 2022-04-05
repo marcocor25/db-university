@@ -17,3 +17,8 @@ WHERE (YEAR(CURDATE()) - YEAR(date_of_birth)) > 30;
 SELECT *
 FROM `courses`
 WHERE `period` = "I %" AND `year` = 1;
+
+-- QUERY 5
+SELECT *
+FROM `exams`
+WHERE `date` = "2020-06-20" AND `hour` > "14:00:00";

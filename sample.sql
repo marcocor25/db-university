@@ -35,3 +35,6 @@ SELECT COUNT("id")
 FROM `departments`;
 
 -- QUERY 8
+SELECT COUNT("id")
+FROM `teachers`
+WHERE `phone` IS NULL;

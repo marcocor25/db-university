@@ -16,12 +16,14 @@ WHERE (YEAR(CURDATE()) - YEAR(date_of_birth)) > 30;
 -- QUERY 4
 SELECT *
 FROM `courses`
-WHERE `period` = "I %" AND `year` = 1;
+WHERE `period` = "I %"
+AND `year` = 1;
 
 -- QUERY 5
 SELECT *
 FROM `exams`
-WHERE `date` = "2020-06-20" AND `hour` > "14:00:00";
+WHERE `date` = "2020-06-20"
+AND `hour` > "14:00:00";
 
 -- QUERY 6
 SELECT *
@@ -29,5 +31,7 @@ FROM `degrees`
 WHERE `level` = "magistrale";
 
 -- QUERY 7
-SELECT *
+SELECT COUNT("id")
 FROM `departments`;
+
+-- QUERY 8

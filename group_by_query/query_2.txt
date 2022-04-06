@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS `n_insegnati`, `office_address` AS `indirizzo_ufficio`
+FROM `teachers`
+GROUP BY `office_address`;

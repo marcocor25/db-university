@@ -9,5 +9,8 @@ FROM `teachers`
 GROUP BY `office_address`;
 
 -- QUERY 3
+SELECT AVG(`vote`) AS `media_voti`, `exam_id`
+FROM `exam_student`
+GROUP BY `exam_id`;
 
 -- QUERY 4

@@ -1,0 +1,3 @@
+SELECT COUNT(`name`) AS `corsi_di_laurea`, `department_id` AS `dipartimento`
+FROM `degrees`
+GROUP BY `department_id`;

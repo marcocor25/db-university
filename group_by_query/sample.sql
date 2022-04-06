@@ -14,3 +14,6 @@ FROM `exam_student`
 GROUP BY `exam_id`;
 
 -- QUERY 4
+SELECT COUNT(`name`) AS `corsi_di_laurea`, `department_id` AS `dipartimento`
+FROM `degrees`
+GROUP BY `department_id`;

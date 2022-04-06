@@ -1,4 +1,9 @@
 -- QUERY 1
+SELECT *
+FROM `students`
+INNER JOIN `degrees`
+ON `students`.`degree_id` = `degrees`.`id`
+WHERE `degrees`.`name` = "Corso di Laurea in Economia";
 
 -- QUERY 2
 
